@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet"href="style.css">
+  <title>戦闘開始！</title>
+</head>
+<body>
+ <div id="battlefield">
+<div class="enemy-side">
+  <h1>enemy</h1>
+<div class="status-enemy">
+  <p id="hp-enemy">体力:40</p>
+</div>
+  <div id="cpu-field" class="zone"></div>
+</div>
+<div class="player-side">
+  <h1>player</h1>
+  <div class="status-player">
+<p id="hp-player">体力:40</p>
+</div>
+  <h2>手持ち</h2>
+  <div id="player-hand"></div>
+</div>
+
+<div class="battle-log">
+    <p id="log-text">ここに戦闘の記録（ログ）が表示されます</p> 
+    <div id="game-message"class="game-message"hidden></div>
+  </div>
+</div>
+
+  
+<script src="script.js"></script>
+</body>
+</html>
